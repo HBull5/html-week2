@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+	height: 50px;
+	background: #333;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	padding: 1rem;
+	cursor: pointer;
+}
+
+/* Showcase Styles */
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+/* footer */
+footer {
+	background: #333;
+	color: #fff;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link rel="stylesheet" href="./externalCSS.css" /> -->
+		<title>CSS</title>
+		<style>
+			html {
+				background: #333;
+			}
+
+			#red {
+				color: red;
+			}
+
+			.blue {
+				color: blue;
+			}
+
+			/* p,
+			ul,
+			span {
+				color: green;
+				text-decoration: underline;
+            } */
+
+			/* div li p {
+				color: blue;
+			} */
+
+			.bold {
+				font-weight: bold;
+			}
+
+			div#primary p span {
+				color: purple;
+			}
+
+			#primary p #coral {
+				color: coral;
+			}
+
+			p.heading {
+				text-decoration: underline;
+			}
+
+			/* div,
+			p {
+				color: mediumseagreen;
+			} */
+
+			/* div p,
+			#special {
+				color: gold;
+			} */
+		</style>
+	</head>
+	<body>
+		<div>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veniam laudantium maxime iste non,
+				accusamus nesciunt beatae modi voluptatem eum quidem hic doloribus reiciendis nemo architecto aliquid ab
+				mollitia vel?
+			</p>
+		</div>
+
+		<div id="special">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ex hic molestiae vel fuga ipsum
+			obcaecati! Eveniet amet cupiditate aspernatur magni nemo facilis. Vel voluptates, vitae ipsa architecto ex
+			vero.
+		</div>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, aspernatur doloremque ipsum nobis
+			voluptates deserunt delectus officia, aperiam, repellat ipsa impedit velit vel? Delectus laborum eius
+			quisquam asperiores corporis ratione?
+		</p>
+
+		<!-- <div id="primary">
+			<p>
+				Lorem ipsum dolor sit <span>amet consectetur,</span> adipisicing elit.
+				<span id="coral">Cupiditate</span> consequuntur, amet consectetur minima quod dignissimos doloremque
+				accusamus sint delectus voluptatum omnis reprehenderit porro, magni quaerat id, fuga in officiis
+				nesciunt!
+			</p>
+			<span>outside</span>
+		</div>
+
+		<div class="heading">
+			<p>
+				Lorem ipsum dolor sit <span>amet consectetur,</span> adipisicing elit. Cupiditate consequuntur, amet
+				consectetur minima quod dignissimos doloremque accusamus sint delectus voluptatum omnis reprehenderit
+				porro, magni quaerat id, fuga in officiis nesciunt!
+			</p>
+		</div>
+
+		<p id="primary" class="heading">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, libero ipsam porro autem cum consectetur
+			mollitia nam tempore veniam sed, explicabo nemo odio incidunt! Delectus nam a distinctio voluptatibus quae.
+		</p> -->
+
+		<!-- WRONG INLINE -->
+		<!-- <p style="color: green">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio at, deleniti, inventore laborum velit totam
+			commodi nesciunt enim recusandae facilis corporis exercitationem eveniet iure sint praesentium eligendi?
+			Veniam, rem delectus.
+        </p> -->
+
+		<!-- WRONG INTERNAL-->
+		<!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat natus saepe, atque dolor,
+			excepturi minus quam doloremque officiis voluptatibus veritatis quisquam est ad nemo corporis eius
+			laudantium cupiditate possimus.
+        </p> -->
+
+		<!-- PROPER EXTERNAL -->
+		<!-- <p class="bold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, minima. Quae omnis hic excepturi iure
+			vero nemo earum nobis nihil eligendi aspernatur asperiores similique sequi alias, error, inventore ab et?
+		</p> -->
+
+		<!-- <p id="red" class="bold">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint ducimus voluptates
+			reprehenderit voluptatibus ipsum accusamus. Rerum amet optio repellat, quisquam nostrum esse magnam ad
+			recusandae, quaerat autem, iure deserunt.
+		</p> -->
+
+		<!-- <ul class="bold">
+            <li>A</li>
+			<li>B</li>
+			<li>C</li>
+		</ul> -->
+
+		<!-- <p id="red" class="blue">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe commodi atque deserunt quibusdam repellat
+            nemo aspernatur doloribus sunt amet aliquid exercitationem voluptates veniam quidem neque, eum laborum.
+            Eveniet, in temporibus?
+        </p>
+        
+        <p class="blue">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptas, deleniti quae possimus nemo,
+            reprehenderit, eveniet inventore quo labore odio laborum perspiciatis tempora mollitia laudantium alias
+            praesentium officia. At, quis?
+        </p>
+        
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus maxime dolores soluta doloremque qui
+            explicabo culpa excepturi doloribus repellendus cumque modi, ipsam inventore a perferendis aliquid esse
+            similique est. Officiis!
+        </p> -->
+
+		<!-- MULTIPLE SELECTORS W/ THE "," -->
+		<!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati sunt praesentium adipisci
+            architecto voluptatibus quos quas. Cumque porro tenetur odio numquam animi odit, pariatur delectus, fuga
+            eveniet sunt cupiditate.
+        </p>
+    
+        <ul>
+            <li>A</li>
+            <li>B</li>
+        </ul>
+    
+        <span>text n things</span> -->
+
+		<!-- NESTED SELECTORS -->
+		<!-- <div>
+			<span>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugit totam minima, dignissimos
+					qui esse eligendi expedita quisquam unde consequatur corrupti impedit pariatur culpa error enim
+					fugiat! Quaerat, nulla odit!
+				</p>
+				<ul>
+					<li>
+						text
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, adipisci. Ratione neque
+							ipsum, inventore, harum earum labore praesentium ab voluptas eaque consectetur quidem sequi
+							veniam at facilis sapiente dolore quam.
+						</p>
+					</li>
+				</ul>
+			</span>
+		</div>
+
+		<ul>
+			<li>
+				<div>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolores error fugit natus aut
+						eum perferendis possimus vel. Quae ratione tenetur labore nihil numquam eaque aliquam fuga
+						ducimus nobis eveniet!
+					</p>
+				</div>
+			</li>
+		</ul> -->
+	</body>
+</html>
